@@ -50,11 +50,13 @@ sudo journalctl -u sshbouncer -f
 
 ```
 sshbouncer/
-├── sshbouncer.py        # Main monitoring daemon
+├── sshbouncer.py  ← Main monitoring daemon
+├── parser.py      ← regex + log parsing
+├── engine.py      ← detection brain
+├── actions.py     ← blocking + email
 ├── install.py            # Interactive installer / uninstaller
 ├── test_sim.py           # Attack simulation + self-test
 ├── config.example.json   # Example configuration
-└── README.md             # This file
 ```
 
 ---
