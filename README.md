@@ -1,8 +1,6 @@
 # 🛡️ SSH Bouncer
 
-**Real-Time SSH Brute-Force Detection (Python + Linux + systemd)**
-
-GitHub: [https://github.com/tdiprima/ssh-bouncer](https://github.com/tdiprima/ssh-bouncer)
+I wrote this to build a small, practical security tool from first principles and to better understand how SSH brute-force protection works in a real Linux environment. The problem I was solving was simple: I wanted a lightweight way to watch SSH logs in real time, spot repeated failed login attempts quickly, and optionally block abusive IPs without relying on heavy tooling or external dependencies.
 
 ## What It Is
 
