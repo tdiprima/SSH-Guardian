@@ -1,4 +1,4 @@
-# engine.py
+# Detection brain
 from collections import defaultdict
 from datetime import datetime, timedelta
 from actions import block_ip, send_email
